@@ -10,6 +10,16 @@ This is a
 multiline comment!
 */
 
+// VARIABLES!
+$username = "babu";
+$age = 33;
+$float = 55.5;
+$bool = false;
+echo"{$username} <br> name";
+echo"{$age} <br> age";
+echo"{$bool} <br> not online";
+
+
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +31,6 @@ multiline comment!
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <button></button>
+        <button>Click me</button>
     </body>
 </html>
